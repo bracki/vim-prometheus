@@ -4,7 +4,7 @@ if exists("b:current_syntax")
 endif
 
 " Keywords
-syn keyword prometheusKeywords ALERT IF FOR WITH SUMMARY DESCRIPTION
+syn keyword prometheusKeywords ALERT IF FOR WITH SUMMARY DESCRIPTION RUNBOOK
 
 " Strings
 syn region prometheusString start=/"/ skip=/\\"/ end=/"/
